@@ -1,0 +1,1650 @@
+{
+ "n": 101,
+ "excluidas": [
+  24
+ ],
+ "a": {
+  "base": {
+   "no_vacias": 58,
+   "frac": 0.5742574257425742,
+   "ic95": [
+    0.4768501445286466,
+    0.6662230267154063
+   ]
+  },
+  "small": {
+   "no_vacias": 62,
+   "frac": 0.6138613861386139,
+   "ic95": [
+    0.5164020131421063,
+    0.7029768494321083
+   ]
+  },
+  "medium": {
+   "no_vacias": 76,
+   "frac": 0.7524752475247525,
+   "ic95": [
+    0.660097212517289,
+    0.826351569712491
+   ]
+  },
+  "vosk": {
+   "no_vacias": 31,
+   "frac": 0.3069306930693069,
+   "ic95": [
+    0.22543627143014194,
+    0.40257348333532034
+   ]
+  }
+ },
+ "b": {
+  "base-small": {
+   "evaluable": true,
+   "n_pares": 48,
+   "J_obs": 0.38544098194833487,
+   "p": 9.999000099990002e-05,
+   "p_holm": 0.0005999400059994001
+  },
+  "base-medium": {
+   "evaluable": true,
+   "n_pares": 48,
+   "J_obs": 0.32310630715961597,
+   "p": 9.999000099990002e-05,
+   "p_holm": 0.0005999400059994001
+  },
+  "base-vosk": {
+   "evaluable": true,
+   "n_pares": 29,
+   "J_obs": 0.17403662412736823,
+   "p": 9.999000099990002e-05,
+   "p_holm": 0.0005999400059994001
+  },
+  "small-medium": {
+   "evaluable": true,
+   "n_pares": 52,
+   "J_obs": 0.5017391152713551,
+   "p": 9.999000099990002e-05,
+   "p_holm": 0.0005999400059994001
+  },
+  "small-vosk": {
+   "evaluable": true,
+   "n_pares": 29,
+   "J_obs": 0.18099623721348462,
+   "p": 9.999000099990002e-05,
+   "p_holm": 0.0005999400059994001
+  },
+  "medium-vosk": {
+   "evaluable": true,
+   "n_pares": 26,
+   "J_obs": 0.18851576789411448,
+   "p": 9.999000099990002e-05,
+   "p_holm": 0.0005999400059994001
+  }
+ },
+ "c": {
+  "base": {
+   "n": 101,
+   "cobertura_media": 0.0957095709570957,
+   "cobertura_nula_media": 0.0238899528524281,
+   "aciertos_0_5": 8,
+   "aciertos_nulos_esperados": 1.4705,
+   "p": 9.999000099990002e-05,
+   "jaccard_0_5": 3,
+   "p_holm": 0.00039996000399960006
+  },
+  "small": {
+   "n": 101,
+   "cobertura_media": 0.10825082508250826,
+   "cobertura_nula_media": 0.02365697076850542,
+   "aciertos_0_5": 10,
+   "aciertos_nulos_esperados": 1.2307,
+   "p": 9.999000099990002e-05,
+   "jaccard_0_5": 5,
+   "p_holm": 0.00039996000399960006
+  },
+  "medium": {
+   "n": 101,
+   "cobertura_media": 0.09471947194719471,
+   "cobertura_nula_media": 0.018606513437057992,
+   "aciertos_0_5": 10,
+   "aciertos_nulos_esperados": 1.0442,
+   "p": 9.999000099990002e-05,
+   "jaccard_0_5": 5,
+   "p_holm": 0.00039996000399960006
+  },
+  "vosk": {
+   "n": 101,
+   "cobertura_media": 0.03300330033003301,
+   "cobertura_nula_media": 0.008475106082036775,
+   "aciertos_0_5": 3,
+   "aciertos_nulos_esperados": 0.6311,
+   "p": 0.0031996800319968005,
+   "jaccard_0_5": 2,
+   "p_holm": 0.0031996800319968005
+  }
+ },
+ "c_por_grupo": {
+  "MSSPI": {
+   "n": 57,
+   "base": 2,
+   "small": 2,
+   "medium": 2,
+   "vosk": 1
+  },
+  "Soulwriter": {
+   "n": 8,
+   "base": 1,
+   "small": 1,
+   "medium": 1,
+   "vosk": 1
+  },
+  "Todd_Bates": {
+   "n": 13,
+   "base": 2,
+   "small": 3,
+   "medium": 4,
+   "vosk": 0
+  },
+  "otros": {
+   "n": 17,
+   "base": 3,
+   "small": 3,
+   "medium": 3,
+   "vosk": 1
+  },
+  "southlandghosthunter": {
+   "n": 6,
+   "base": 0,
+   "small": 1,
+   "medium": 0,
+   "vosk": 0
+  }
+ },
+ "por_grabacion": [
+  {
+   "n": 1,
+   "frase": "Ahí viene",
+   "grupo": "otros",
+   "base": "No, no, no, no, no, no.",
+   "small": "¡Suscríbete!",
+   "medium": "Subtítulos por la comunidad de Amara.org",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 2,
+   "frase": "A este lo mato",
+   "grupo": "otros",
+   "base": "",
+   "small": "¡Suscríbete!",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 3,
+   "frase": "Tú lo tienes que descubrir",
+   "grupo": "otros",
+   "base": "No, no, no, no, no, no, no.",
+   "small": "¡Suscríbete!",
+   "medium": "Gracias por ver el video.",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 4,
+   "frase": "Apártate",
+   "grupo": "otros",
+   "base": "",
+   "small": "",
+   "medium": "¡Gracias por ver!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 5,
+   "frase": "Hola",
+   "grupo": "otros",
+   "base": "Hola, hola, hola, hola, hola, hola, hola.",
+   "small": "hola-hola-hola-hola-hola hola-hola-hola-hola",
+   "medium": "hola hola hola hola hola hola hola",
+   "vosk": "hola hola hola hola hola",
+   "cob_base": 1.0,
+   "cob_small": 1.0,
+   "cob_medium": 1.0,
+   "cob_vosk": 1.0
+  },
+  {
+   "n": 6,
+   "frase": "You steppin on this grave",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 7,
+   "frase": "Get out",
+   "grupo": "MSSPI",
+   "base": ". . . .",
+   "small": "You",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 8,
+   "frase": "Pinch her",
+   "grupo": "MSSPI",
+   "base": "I'm going to get some water. I'm going to get some water.",
+   "small": "You",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 9,
+   "frase": "Strike two",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 10,
+   "frase": "Do it yourself",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 11,
+   "frase": "Come back don't leave me",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 12,
+   "frase": "Please take us home",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 13,
+   "frase": "On cue you tempt me",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "Thank you.",
+   "medium": "Thank you.",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.2,
+   "cob_medium": 0.2,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 14,
+   "frase": "I'm Bradford Beard",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "You",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 15,
+   "frase": "Hey wait",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 16,
+   "frase": "Fishin",
+   "grupo": "MSSPI",
+   "base": "You",
+   "small": "",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 17,
+   "frase": "Grover",
+   "grupo": "MSSPI",
+   "base": "Can you tell us your name?",
+   "small": "Can you tell us your name?",
+   "medium": "Can you tell us your name?",
+   "vosk": "can you tell us your name",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 18,
+   "frase": "Yes",
+   "grupo": "MSSPI",
+   "base": "Is there anyone in here?",
+   "small": "Is there anyone in here?",
+   "medium": "Is there anyone in here?",
+   "vosk": "there you are a year",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 19,
+   "frase": "Welcome again",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 20,
+   "frase": "You never get the choice",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "Thank you.",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.2,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 21,
+   "frase": "Hey there",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 22,
+   "frase": "It was there first",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "You",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 23,
+   "frase": "Catch me dead",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 25,
+   "frase": "Frank",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 26,
+   "frase": "Frank",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Right.",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 27,
+   "frase": "You're never gonna find me",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 28,
+   "frase": "Strangers",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "Thank you.",
+   "medium": "Thank you.",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 29,
+   "frase": "I am spirit",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 30,
+   "frase": "I'm the one who done it",
+   "grupo": "MSSPI",
+   "base": "Thank you very much for joining us. Thank you very much.",
+   "small": "",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 31,
+   "frase": "You're being kinda quiet",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "I'm going to call the squad.",
+   "medium": "We're going to cover what?",
+   "vosk": "why",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.2,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 32,
+   "frase": "What you two doing",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 33,
+   "frase": "Get out you don't belong here",
+   "grupo": "MSSPI",
+   "base": "You",
+   "small": "",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.17,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 34,
+   "frase": "Come find me",
+   "grupo": "MSSPI",
+   "base": "If you're here, stay calm.",
+   "small": "If you're here, say something.",
+   "medium": "If you're here, say something.",
+   "vosk": "here they come",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.33
+  },
+  {
+   "n": 35,
+   "frase": "Hey hey",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "Thank you.",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 36,
+   "frase": "I want to play",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 37,
+   "frase": "Don't come back forget",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "Thank you.",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 38,
+   "frase": "Hey what you doing",
+   "grupo": "MSSPI",
+   "base": "I'm going to try and do it.",
+   "small": "That's kind of strange.",
+   "medium": "That's kind of strange.",
+   "vosk": "right",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 39,
+   "frase": "Hey I can see them",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 40,
+   "frase": "Help me",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 41,
+   "frase": "You best get back in the car",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 42,
+   "frase": "Sarah",
+   "grupo": "MSSPI",
+   "base": "We're going to have a look at some of the things that we're going to do right now. We're going to have a look at some of the things that we're going to do right now.",
+   "small": "",
+   "medium": "... Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 43,
+   "frase": "Let her be",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 44,
+   "frase": "We want it back",
+   "grupo": "MSSPI",
+   "base": "That's all we have to do.",
+   "small": "Thanks for watching.",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.25,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 45,
+   "frase": "What you doing",
+   "grupo": "MSSPI",
+   "base": "Thank you very much.",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.33,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 46,
+   "frase": "I remember that man was here before",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 47,
+   "frase": "I'm behind you baby",
+   "grupo": "MSSPI",
+   "base": "How about any health? She here?",
+   "small": "How about any health? Is she here?",
+   "medium": "How about needing help? Is she here?",
+   "vosk": "that help here",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 48,
+   "frase": "Angie Tony",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "You",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 49,
+   "frase": "Waiting for the train",
+   "grupo": "MSSPI",
+   "base": "I'm going here and move out for no sex right now. So if you over here, come on, come over here.",
+   "small": "Well, I'm going to move over to another section right now. See, if you over here, come on. Come over here.",
+   "medium": "I'm going to move over to another section right now. If you're over here, come on. Come over here.",
+   "vosk": "not you're a merger note that right now over here i'm off more heat",
+   "cob_base": 0.25,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 50,
+   "frase": "We'll see what happens",
+   "grupo": "otros",
+   "base": "I'm going to put it on the side. I'm going to put it on the side. I'm going to put it on the side.",
+   "small": "Alright, let's go. Okay, okay, let's go. Okay, we're out of time.",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.2,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 51,
+   "frase": "No way",
+   "grupo": "otros",
+   "base": "It's not like that. It's not like that. It's not like that.",
+   "small": "That's what we're talking about.",
+   "medium": ". . . . . .",
+   "vosk": "hey pocket",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 52,
+   "frase": "Get out",
+   "grupo": "MSSPI",
+   "base": "It's like it's cool, I'm sorry, come on What do you just say",
+   "small": "This fight is cool! I'm sorry! Come on! What did he just say?",
+   "medium": "This light is cool! I'm sorry! Come on! What did he just say?",
+   "vosk": "who's point of prohibitive that link come on when he did say",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 53,
+   "frase": "I'll try",
+   "grupo": "MSSPI",
+   "base": "Did you do that? No, I'm not. I got close. I've been in the pool over there. It's over there in front of the pool. We're out.",
+   "small": "If you do, we have a paper up here, we've got photos that you have to record over there. You can go over there and record it for me.",
+   "medium": "Did you do me a favor? I forgot to close that bedroom door over there. Did you go there and close it for me?",
+   "vosk": "yeah how",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 54,
+   "frase": "Get out",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 55,
+   "frase": "Angie",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 56,
+   "frase": "Angie",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "Thank you very much for watching.",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 57,
+   "frase": "We just want to talk",
+   "grupo": "MSSPI",
+   "base": "Board a couple of nights, yeah, I just want to talk to you. We get it.",
+   "small": "We're a couple of nice guys and we just want to talk to you.",
+   "medium": "We're a couple of nice guys. We just want to talk to you.",
+   "vosk": "couple lies yeah we just want to talk to you yeah",
+   "cob_base": 1.0,
+   "cob_small": 1.0,
+   "cob_medium": 1.0,
+   "cob_vosk": 1.0
+  },
+  {
+   "n": 58,
+   "frase": "Help me",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "You",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 59,
+   "frase": "It was me",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 60,
+   "frase": "Do it again",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "",
+   "vosk": "huh",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 61,
+   "frase": "Yeah",
+   "grupo": "MSSPI",
+   "base": "Billy, is there supposed to fish you all?",
+   "small": "Billy, did those boys kiss you all?",
+   "medium": "Billy, did those boys piss you off?",
+   "vosk": "billy this was his you are",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 62,
+   "frase": "Better get out",
+   "grupo": "MSSPI",
+   "base": "I'm out.",
+   "small": "",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.33,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 63,
+   "frase": "Get out",
+   "grupo": "MSSPI",
+   "base": "",
+   "small": "",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 64,
+   "frase": "Help me",
+   "grupo": "MSSPI",
+   "base": "Don't think this is...",
+   "small": "Do you all take visas?",
+   "medium": "You don't take visas?",
+   "vosk": "does a decent",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 65,
+   "frase": "Hey",
+   "grupo": "MSSPI",
+   "base": "Hey! I'm going home.",
+   "small": "Hey!",
+   "medium": "Hey!",
+   "vosk": "",
+   "cob_base": 1.0,
+   "cob_small": 1.0,
+   "cob_medium": 1.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 66,
+   "frase": "Not me",
+   "grupo": "otros",
+   "base": "Thank you very much. Bye.",
+   "small": "",
+   "medium": "",
+   "vosk": "john",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 67,
+   "frase": "Please",
+   "grupo": "otros",
+   "base": "Okay.",
+   "small": "please",
+   "medium": "Please.",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 1.0,
+   "cob_medium": 1.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 68,
+   "frase": "Play with me",
+   "grupo": "otros",
+   "base": "Thank you very much.",
+   "small": "",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 69,
+   "frase": "Good",
+   "grupo": "otros",
+   "base": "What can we do for you? You need a business being here, you're good, you're good. You're good.",
+   "small": "What can we do for you? Can we do business here? Are you good? Are you bad?",
+   "medium": "We can be new for you, we can be a business man here, are you good, are you bad?",
+   "vosk": "every year this has been here you go bad",
+   "cob_base": 1.0,
+   "cob_small": 1.0,
+   "cob_medium": 1.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 70,
+   "frase": "It scared me",
+   "grupo": "otros",
+   "base": "Was the truck too loud?",
+   "small": "Where's the truck? Too loud.",
+   "medium": "Was the truck too loud?",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 71,
+   "frase": "Center it",
+   "grupo": "otros",
+   "base": "What is going on here?",
+   "small": "I don't know what's happening, I don't know.",
+   "medium": "I don't know, I don't know",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 72,
+   "frase": "What happened to me I don't know",
+   "grupo": "otros",
+   "base": "I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry.",
+   "small": "",
+   "medium": "Thank you very much. Thank you.",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 73,
+   "frase": "Jacob",
+   "grupo": "otros",
+   "base": "Hello, anyone coming? Is anybody here? What's yours? That's going to be a potential whisperer to you. Or he will. Whoever it is.",
+   "small": "If you like me, we'll do it. Beth, then maybe if you concentrate, she'll whisper it to you. Or he will, whoever it is.",
+   "medium": "Come on, you don't mind me. If you like me, what's yours? Beth, then maybe if you concentrate, she'll whisper it to you. Or he will, whoever it is.",
+   "vosk": "the a concentration of was fifteen he was ready huh",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 74,
+   "frase": "That's it",
+   "grupo": "otros",
+   "base": "You",
+   "small": "You",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 75,
+   "frase": "I'm ready now",
+   "grupo": "Soulwriter",
+   "base": "I will present you.",
+   "small": "I'll break the fuck",
+   "medium": "I'll write it down.",
+   "vosk": "the",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 76,
+   "frase": "Hello",
+   "grupo": "Soulwriter",
+   "base": "Are you trying to tell us something?",
+   "small": "Are you trying to tell us something?",
+   "medium": "Are you trying to tell us something?",
+   "vosk": "the try to tell us",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 77,
+   "frase": "He can't",
+   "grupo": "Soulwriter",
+   "base": "Are you trying to communicate with us?",
+   "small": "Are you trying to communicate with us?",
+   "medium": "Are you trying to communicate with us?",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 78,
+   "frase": "I'm here",
+   "grupo": "Soulwriter",
+   "base": "Walter anybody's in here",
+   "small": "Well, is there anybody's in here?",
+   "medium": "Walter anybody's in here",
+   "vosk": "dr anybody's in here",
+   "cob_base": 1.0,
+   "cob_small": 1.0,
+   "cob_medium": 1.0,
+   "cob_vosk": 1.0
+  },
+  {
+   "n": 79,
+   "frase": "Should stay here and chat stay and chat",
+   "grupo": "Soulwriter",
+   "base": "Yes. Yes. Yes. Yes. Yes. Yes. Yes.",
+   "small": "Yes. We need to be in this thing. We need to be in this thing. So long.",
+   "medium": "Yes. You're being a shameless thing. You're being cheated. You're being a stupid thing. Yeah.",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 80,
+   "frase": "Ten hut",
+   "grupo": "Soulwriter",
+   "base": "",
+   "small": "",
+   "medium": "I can't h-",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 81,
+   "frase": "Christopher",
+   "grupo": "Soulwriter",
+   "base": "That's the f-",
+   "small": "That's the f-",
+   "medium": "",
+   "vosk": "the",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 82,
+   "frase": "I fought with a group",
+   "grupo": "Soulwriter",
+   "base": "I thought...",
+   "small": "I thought",
+   "medium": "I thought...",
+   "vosk": "the south",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 83,
+   "frase": "I'll return",
+   "grupo": "Todd_Bates",
+   "base": "Ki woji kata kura kura kura kura kura kura kura kura",
+   "small": "Do you wish to contact the rest? Oh, okay.",
+   "medium": "Do you wish to contact the rescue? I'll call you in a minute.",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.5,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 84,
+   "frase": "You should get",
+   "grupo": "Todd_Bates",
+   "base": "Don't you care?",
+   "small": "You should care.",
+   "medium": "You should care.",
+   "vosk": "yeah",
+   "cob_base": 0.33,
+   "cob_small": 0.67,
+   "cob_medium": 0.67,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 85,
+   "frase": "That's my daddy",
+   "grupo": "Todd_Bates",
+   "base": "We're going to talk about what we're going to do.",
+   "small": "That's how it works.",
+   "medium": "",
+   "vosk": "no",
+   "cob_base": 0.0,
+   "cob_small": 0.33,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 86,
+   "frase": "Stop",
+   "grupo": "Todd_Bates",
+   "base": "AAAAAAAAAAAAAAAA",
+   "small": "HMMMMMMMMMMMMMMMMMMMMMMMMM",
+   "medium": "AHHHHH",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 87,
+   "frase": "Jill",
+   "grupo": "Todd_Bates",
+   "base": "I don't think I'm gonna do anything. I have nothing to do with this. I'm sorry.",
+   "small": "Oh, for the truth. Yeah. Yeah. I'm sorry.",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 88,
+   "frase": "Flash",
+   "grupo": "Todd_Bates",
+   "base": "Oh yeah!",
+   "small": "",
+   "medium": "Bye-bye!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 89,
+   "frase": "Hello",
+   "grupo": "Todd_Bates",
+   "base": "Hello!",
+   "small": "Hello!",
+   "medium": "Hello!",
+   "vosk": "though",
+   "cob_base": 1.0,
+   "cob_small": 1.0,
+   "cob_medium": 1.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 90,
+   "frase": "Goodbye",
+   "grupo": "Todd_Bates",
+   "base": "I'm going to go to bed now",
+   "small": "I don't know.",
+   "medium": "Good one.",
+   "vosk": "the",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 91,
+   "frase": "No",
+   "grupo": "Todd_Bates",
+   "base": "",
+   "small": "You",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 92,
+   "frase": "No",
+   "grupo": "Todd_Bates",
+   "base": "He will he and he wants to leave. Oh. He said no.",
+   "small": "William, did you watch the lead? She said no.",
+   "medium": "Do you think William, he wants to leave? He said no.",
+   "vosk": "why we whoa",
+   "cob_base": 1.0,
+   "cob_small": 1.0,
+   "cob_medium": 1.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 93,
+   "frase": "In there",
+   "grupo": "Todd_Bates",
+   "base": "",
+   "small": "",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 94,
+   "frase": "Help",
+   "grupo": "Todd_Bates",
+   "base": "Thank you very much.",
+   "small": "Thank you.",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 95,
+   "frase": "Mama",
+   "grupo": "Todd_Bates",
+   "base": "",
+   "small": "",
+   "medium": "",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 96,
+   "frase": "Oasis",
+   "grupo": "southlandghosthunter",
+   "base": "I have to leave my name, I have to leave my name, I have to leave my name.",
+   "small": "Can you hear me?",
+   "medium": "Do you know my name?",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 97,
+   "frase": "No yes",
+   "grupo": "southlandghosthunter",
+   "base": "Are you happy? Are you at peace?",
+   "small": "Are you happy? Are you at peace?",
+   "medium": "Are you happy? Are you at peace?",
+   "vosk": "ah ha ha ha ha",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 98,
+   "frase": "Hello I'm Devon Caul",
+   "grupo": "southlandghosthunter",
+   "base": "That's all I have to say to talk to you now, ma'am.",
+   "small": "Hello, I'm going to call in a minute.",
+   "medium": "You know my name?",
+   "vosk": "ha ha no money",
+   "cob_base": 0.0,
+   "cob_small": 0.33,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 99,
+   "frase": "Om",
+   "grupo": "southlandghosthunter",
+   "base": "I'll see you next time.",
+   "small": "I'll see you guys next time!",
+   "medium": "Thank you for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 100,
+   "frase": "Wait",
+   "grupo": "southlandghosthunter",
+   "base": "They're right. They're right.",
+   "small": "It's over there, wait.",
+   "medium": "There we go.",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 1.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 101,
+   "frase": "No",
+   "grupo": "southlandghosthunter",
+   "base": "Thank you very much.",
+   "small": "Thank you.",
+   "medium": "Thanks for watching!",
+   "vosk": "",
+   "cob_base": 0.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  },
+  {
+   "n": 102,
+   "frase": "Watch",
+   "grupo": "otros",
+   "base": "Watch me.",
+   "small": "What?",
+   "medium": "What?",
+   "vosk": "right",
+   "cob_base": 1.0,
+   "cob_small": 0.0,
+   "cob_medium": 0.0,
+   "cob_vosk": 0.0
+  }
+ ],
+ "alguna_acierta": 12,
+ "todas_aciertan": 3,
+ "frases_mas_repetidas": {
+  "base": [
+   [
+    "thank you very much",
+    4
+   ],
+   [
+    "you",
+    3
+   ],
+   [
+    "no no no no no no",
+    1
+   ],
+   [
+    "no no no no no no no",
+    1
+   ],
+   [
+    "hola hola hola hola hola hola hola",
+    1
+   ],
+   [
+    "going to get some water going to get some water",
+    1
+   ],
+   [
+    "can you tell us your name",
+    1
+   ],
+   [
+    "is there anyone in here",
+    1
+   ],
+   [
+    "thank you very much for joining us thank you very much",
+    1
+   ],
+   [
+    "if you re here stay calm",
+    1
+   ]
+  ],
+  "small": [
+   [
+    "you",
+    8
+   ],
+   [
+    "thank you",
+    7
+   ],
+   [
+    "suscribete",
+    3
+   ],
+   [
+    "hola hola hola hola hola hola hola hola hola",
+    1
+   ],
+   [
+    "can you tell us your name",
+    1
+   ],
+   [
+    "is there anyone in here",
+    1
+   ],
+   [
+    "going to call the squad",
+    1
+   ],
+   [
+    "if you re here say something",
+    1
+   ],
+   [
+    "that kind of strange",
+    1
+   ],
+   [
+    "thanks for watching",
+    1
+   ]
+  ],
+  "medium": [
+   [
+    "thanks for watching",
+    30
+   ],
+   [
+    "thank you",
+    2
+   ],
+   [
+    "subtitulos por la comunidad de amara org",
+    1
+   ],
+   [
+    "gracias por ver el video",
+    1
+   ],
+   [
+    "gracias por ver",
+    1
+   ],
+   [
+    "hola hola hola hola hola hola hola",
+    1
+   ],
+   [
+    "can you tell us your name",
+    1
+   ],
+   [
+    "is there anyone in here",
+    1
+   ],
+   [
+    "right",
+    1
+   ],
+   [
+    "we re going to cover what",
+    1
+   ]
+  ],
+  "vosk": [
+   [
+    "the",
+    3
+   ],
+   [
+    "right",
+    2
+   ],
+   [
+    "hola hola hola hola hola",
+    1
+   ],
+   [
+    "can you tell us your name",
+    1
+   ],
+   [
+    "there you are year",
+    1
+   ],
+   [
+    "why",
+    1
+   ],
+   [
+    "here they come",
+    1
+   ],
+   [
+    "that help here",
+    1
+   ],
+   [
+    "not you re merger note that right now over here off more heat",
+    1
+   ],
+   [
+    "hey pocket",
+    1
+   ]
+  ]
+ }
+}

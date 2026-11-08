@@ -1,0 +1,11 @@
+{
+ "nulo": {
+  "frac_p_menor_0_01": 0.0,
+  "p_mediana": 0.8478260869565217
+ },
+ "plantado": {
+  "frac_p_menor_0_01": 0.96,
+  "p_mediana": 0.0004997501249375312
+ },
+ "aprueba": true
+}

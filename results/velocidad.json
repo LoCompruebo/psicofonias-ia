@@ -1,0 +1,78 @@
+{
+ "base": {
+  "carga_s": 3.0,
+  "s_por_frase": 0.284,
+  "wer_medio": 0.0589,
+  "ejemplos": [
+   {
+    "ref": "Mañana por la tarde iremos al mercado a comprar fruta.",
+    "hip": "Mañana por la tarde iremos al mercado a comprar fruta."
+   },
+   {
+    "ref": "El autobús de las ocho llegó con diez minutos de retraso.",
+    "hip": "El autobús del asocho llegó con 10 minutos de retraso."
+   },
+   {
+    "ref": "Mi hermana trabaja en una oficina cerca de la estación.",
+    "hip": "Mi hermana trabaja en una oficina cerca de la estación."
+   }
+  ]
+ },
+ "small": {
+  "carga_s": 2.5,
+  "s_por_frase": 0.536,
+  "wer_medio": 0.0287,
+  "ejemplos": [
+   {
+    "ref": "Mañana por la tarde iremos al mercado a comprar fruta.",
+    "hip": "Mañana por la tarde iremos al mercado a comprar fruta."
+   },
+   {
+    "ref": "El autobús de las ocho llegó con diez minutos de retraso.",
+    "hip": "El autobús del A8 llegó con 10 minutos de retraso."
+   },
+   {
+    "ref": "Mi hermana trabaja en una oficina cerca de la estación.",
+    "hip": "Mi hermana trabaja en una oficina cerca de la estación."
+   }
+  ]
+ },
+ "medium": {
+  "carga_s": 8.0,
+  "s_por_frase": 1.126,
+  "wer_medio": 0.0302,
+  "ejemplos": [
+   {
+    "ref": "Mañana por la tarde iremos al mercado a comprar fruta.",
+    "hip": "Mañana por la tarde iremos al mercado a comprar fruta."
+   },
+   {
+    "ref": "El autobús de las ocho llegó con diez minutos de retraso.",
+    "hip": "El autobús de las 8 llegó con 10 minutos de retraso."
+   },
+   {
+    "ref": "Mi hermana trabaja en una oficina cerca de la estación.",
+    "hip": "Mi hermana trabaja en una oficina cerca de la estación."
+   }
+  ]
+ },
+ "vosk": {
+  "carga_s": 1.0,
+  "s_por_frase": 0.94,
+  "wer_medio": 0.0241,
+  "ejemplos": [
+   {
+    "ref": "Mañana por la tarde iremos al mercado a comprar fruta.",
+    "hip": "mañana por la tarde iremos al mercado a comprar fruta"
+   },
+   {
+    "ref": "El autobús de las ocho llegó con diez minutos de retraso.",
+    "hip": "el autobús de las ocho llegó con diez minutos de retraso"
+   },
+   {
+    "ref": "Mi hermana trabaja en una oficina cerca de la estación.",
+    "hip": "mi hermana trabaja en una oficina cerca de la estación"
+   }
+  ]
+ }
+}

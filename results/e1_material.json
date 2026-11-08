@@ -1,0 +1,246 @@
+{
+ "ruido": [
+  {
+   "id": "blanco_027",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_074",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_089",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_116",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_117",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_127",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_167",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_183",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_201",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_239",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_246",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_268",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_269",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_275",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "blanco_296",
+   "texto": "¡SUSCRÍBETE!"
+  },
+  {
+   "id": "marron_051",
+   "texto": "¡Suscríbete al canal!"
+  },
+  {
+   "id": "marron_056",
+   "texto": "¡Suscríbete al canal!"
+  },
+  {
+   "id": "marron_066",
+   "texto": "¡Gracias por ver el vídeo!"
+  },
+  {
+   "id": "marron_090",
+   "texto": "¡Gracias por ver el vídeo!"
+  },
+  {
+   "id": "marron_101",
+   "texto": "¡Gracias por ver el vídeo!"
+  },
+  {
+   "id": "marron_181",
+   "texto": "¡Gracias por ver el vídeo!"
+  },
+  {
+   "id": "marron_191",
+   "texto": "¡Suscríbete al canal!"
+  },
+  {
+   "id": "marron_246",
+   "texto": "¡Gracias por ver el vídeo!"
+  },
+  {
+   "id": "marron_252",
+   "texto": "¡Suscríbete al canal!"
+  },
+  {
+   "id": "rosa_016",
+   "texto": "¡Gracias por ver el vídeo!"
+  },
+  {
+   "id": "rosa_072",
+   "texto": "¡Gracias por ver el vídeo!"
+  },
+  {
+   "id": "rosa_083",
+   "texto": "¡Gracias por ver el vídeo!"
+  },
+  {
+   "id": "rosa_107",
+   "texto": "¡Gracias por ver el vídeo!"
+  },
+  {
+   "id": "rosa_121",
+   "texto": "¡Gracias por ver el vídeo!"
+  },
+  {
+   "id": "rosa_217",
+   "texto": "¡Suscríbete al canal!"
+  }
+ ],
+ "azar": [
+  {
+   "id": "azar_00",
+   "texto": "La"
+  },
+  {
+   "id": "azar_01",
+   "texto": "las"
+  },
+  {
+   "id": "azar_02",
+   "texto": "iremos"
+  },
+  {
+   "id": "azar_03",
+   "texto": "gimnasio"
+  },
+  {
+   "id": "azar_04",
+   "texto": "cartero"
+  },
+  {
+   "id": "azar_05",
+   "texto": "la"
+  },
+  {
+   "id": "azar_06",
+   "texto": "otro"
+  },
+  {
+   "id": "azar_07",
+   "texto": "teatro"
+  },
+  {
+   "id": "azar_08",
+   "texto": "en"
+  },
+  {
+   "id": "azar_09",
+   "texto": "muy"
+  },
+  {
+   "id": "azar_10",
+   "texto": "último"
+  },
+  {
+   "id": "azar_11",
+   "texto": "la"
+  },
+  {
+   "id": "azar_12",
+   "texto": "con"
+  },
+  {
+   "id": "azar_13",
+   "texto": "museo"
+  },
+  {
+   "id": "azar_14",
+   "texto": "hablar"
+  },
+  {
+   "id": "azar_15",
+   "texto": "al están ir"
+  },
+  {
+   "id": "azar_16",
+   "texto": "desde de Hemos"
+  },
+  {
+   "id": "azar_17",
+   "texto": "el de domingos verano casi"
+  },
+  {
+   "id": "azar_18",
+   "texto": "antiguos La las patatas bicicleta"
+  },
+  {
+   "id": "azar_19",
+   "texto": "cierra a basura Compré hablar"
+  },
+  {
+   "id": "azar_20",
+   "texto": "del y durante un otra"
+  },
+  {
+   "id": "azar_21",
+   "texto": "Necesito de de"
+  },
+  {
+   "id": "azar_22",
+   "texto": "que favor, vendrá dos tortilla"
+  },
+  {
+   "id": "azar_23",
+   "texto": "las edificio muy"
+  },
+  {
+   "id": "azar_24",
+   "texto": "a costa al empiezan de"
+  },
+  {
+   "id": "azar_25",
+   "texto": "que la Mi están nuevo"
+  },
+  {
+   "id": "azar_26",
+   "texto": "para al cumpleaños que volcanes"
+  },
+  {
+   "id": "azar_27",
+   "texto": "del Mi lluvia partido huerta"
+  },
+  {
+   "id": "azar_28",
+   "texto": "martes frenos el sido el"
+  },
+  {
+   "id": "azar_29",
+   "texto": "empiezan finales gasolineras"
+  }
+ ]
+}

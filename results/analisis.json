@@ -1,0 +1,464 @@
+{
+ "ias": [
+  "base",
+  "small",
+  "medium",
+  "vosk"
+ ],
+ "H1": {
+  "base/blanco": {
+   "n": 300,
+   "no_vacias": 1,
+   "frac": 0.0033333333333333335,
+   "ic95": [
+    0.0005886577153496192,
+    0.018636693896650527
+   ]
+  },
+  "base/rosa": {
+   "n": 300,
+   "no_vacias": 2,
+   "frac": 0.006666666666666667,
+   "ic95": [
+    0.0018301483414602509,
+    0.02397758346106338
+   ]
+  },
+  "base/marron": {
+   "n": 300,
+   "no_vacias": 1,
+   "frac": 0.0033333333333333335,
+   "ic95": [
+    0.0005886577153496192,
+    0.018636693896650527
+   ]
+  },
+  "small/blanco": {
+   "n": 300,
+   "no_vacias": 300,
+   "frac": 1.0,
+   "ic95": [
+    0.9873570285785234,
+    1.0
+   ]
+  },
+  "small/rosa": {
+   "n": 300,
+   "no_vacias": 300,
+   "frac": 1.0,
+   "ic95": [
+    0.9873570285785234,
+    1.0
+   ]
+  },
+  "small/marron": {
+   "n": 300,
+   "no_vacias": 7,
+   "frac": 0.023333333333333334,
+   "ic95": [
+    0.011347660237010695,
+    0.047371972518130384
+   ]
+  },
+  "medium/blanco": {
+   "n": 300,
+   "no_vacias": 300,
+   "frac": 1.0,
+   "ic95": [
+    0.9873570285785234,
+    1.0
+   ]
+  },
+  "medium/rosa": {
+   "n": 300,
+   "no_vacias": 299,
+   "frac": 0.9966666666666667,
+   "ic95": [
+    0.9813633061033494,
+    0.9994113422846503
+   ]
+  },
+  "medium/marron": {
+   "n": 300,
+   "no_vacias": 300,
+   "frac": 1.0,
+   "ic95": [
+    0.9873570285785234,
+    1.0
+   ]
+  },
+  "vosk/blanco": {
+   "n": 300,
+   "no_vacias": 0,
+   "frac": 0.0,
+   "ic95": [
+    8.673617379884035e-19,
+    0.012642971421476655
+   ]
+  },
+  "vosk/rosa": {
+   "n": 300,
+   "no_vacias": 0,
+   "frac": 0.0,
+   "ic95": [
+    8.673617379884035e-19,
+    0.012642971421476655
+   ]
+  },
+  "vosk/marron": {
+   "n": 300,
+   "no_vacias": 0,
+   "frac": 0.0,
+   "ic95": [
+    8.673617379884035e-19,
+    0.012642971421476655
+   ]
+  }
+ },
+ "H2": {
+  "base-small/blanco": {
+   "evaluable": false,
+   "n_pares": 1,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_hermanos",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "base-small/rosa": {
+   "evaluable": false,
+   "n_pares": 2,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_hermanos",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "base-small/marron": {
+   "evaluable": false,
+   "n_pares": 0,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_hermanos",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "base-medium/blanco": {
+   "evaluable": false,
+   "n_pares": 1,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_hermanos",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "base-medium/rosa": {
+   "evaluable": false,
+   "n_pares": 2,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_hermanos",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "base-medium/marron": {
+   "evaluable": false,
+   "n_pares": 1,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_hermanos",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "base-vosk/blanco": {
+   "evaluable": false,
+   "n_pares": 0,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_familias",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "base-vosk/rosa": {
+   "evaluable": false,
+   "n_pares": 0,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_familias",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "base-vosk/marron": {
+   "evaluable": false,
+   "n_pares": 0,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_familias",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "small-medium/blanco": {
+   "evaluable": true,
+   "n_pares": 300,
+   "J_obs": 0.8922222222222221,
+   "p": 1.0,
+   "familia": "entre_hermanos",
+   "p_holm": 1.0,
+   "positivo": false
+  },
+  "small-medium/rosa": {
+   "evaluable": true,
+   "n_pares": 299,
+   "J_obs": 0.11076990642208034,
+   "p": 0.2842715728427157,
+   "familia": "entre_hermanos",
+   "p_holm": 0.8528147185281472,
+   "positivo": false
+  },
+  "small-medium/marron": {
+   "evaluable": true,
+   "n_pares": 7,
+   "J_obs": 0.14880952380952378,
+   "p": 0.6181381861813818,
+   "familia": "entre_hermanos",
+   "p_holm": 1.0,
+   "positivo": false
+  },
+  "small-vosk/blanco": {
+   "evaluable": false,
+   "n_pares": 0,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_familias",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "small-vosk/rosa": {
+   "evaluable": false,
+   "n_pares": 0,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_familias",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "small-vosk/marron": {
+   "evaluable": false,
+   "n_pares": 0,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_familias",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "medium-vosk/blanco": {
+   "evaluable": false,
+   "n_pares": 0,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_familias",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "medium-vosk/rosa": {
+   "evaluable": false,
+   "n_pares": 0,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_familias",
+   "p_holm": NaN,
+   "positivo": null
+  },
+  "medium-vosk/marron": {
+   "evaluable": false,
+   "n_pares": 0,
+   "J_obs": NaN,
+   "p": NaN,
+   "familia": "entre_familias",
+   "p_holm": NaN,
+   "positivo": null
+  }
+ },
+ "H3": {
+  "n": 900,
+  "no_vacia": {
+   "b": 103,
+   "c": 35,
+   "p": 2.8977516655659947e-09,
+   "frac_psico": 0.7822222222222223,
+   "frac_neutra": 0.7066666666666667,
+   "p_holm": 5.7955033311319895e-09
+  },
+  "lexico": {
+   "b": 11,
+   "c": 0,
+   "p": 0.00048828125,
+   "frac_psico": 0.012222222222222223,
+   "frac_neutra": 0.0,
+   "p_holm": 0.00048828125
+  },
+  "positivo": true,
+  "sin_instruccion_descriptivo": {
+   "frac_no_vacia": 0.9988888888888889,
+   "frac_lexico": 0.0
+  }
+ },
+ "V0": {
+  "base": {
+   "20": 0.034,
+   "10": 0.1035,
+   "0": 0.396,
+   "-5": 0.8211,
+   "-10": 1.1065,
+   "-20": 1.0
+  },
+  "small": {
+   "20": 0.01,
+   "10": 0.0242,
+   "0": 0.1791,
+   "-5": 0.4686,
+   "-10": 1.0352,
+   "-20": 0.9982
+  },
+  "medium": {
+   "20": 0.004,
+   "10": 0.0107,
+   "0": 0.0985,
+   "-5": 0.3373,
+   "-10": 0.8654,
+   "-20": 0.9962
+  },
+  "vosk": {
+   "20": 0.0317,
+   "10": 0.0746,
+   "0": 0.271,
+   "-5": 0.8183,
+   "-10": 1.0,
+   "-20": 1.0
+  }
+ },
+ "controles": {
+  "base-small": {
+   "J_media": 0.8281891996891997,
+   "n": 50
+  },
+  "base-medium": {
+   "J_media": 0.8311511266511267,
+   "n": 50
+  },
+  "base-vosk": {
+   "J_media": 0.7789022089022088,
+   "n": 50
+  },
+  "small-medium": {
+   "J_media": 0.9523383838383839,
+   "n": 50
+  },
+  "small-vosk": {
+   "J_media": 0.8608437673437673,
+   "n": 50
+  },
+  "medium-vosk": {
+   "J_media": 0.8881468531468532,
+   "n": 50
+  }
+ },
+ "E4": {
+  "base": [
+   [
+    "no no no no no no no",
+    1
+   ],
+   [
+    "no no no no no no no no no no",
+    1
+   ],
+   [
+    "cualquier para hacer este video si no no no no no no no no no no no no no no no no no no no no no",
+    1
+   ],
+   [
+    "ahora el dia de la manana la verdad que no se puede ver ahora la verdad la verdad la verdad la verdad la verdad la verdad la verdad la verdad la verdad",
+    1
+   ]
+  ],
+  "small": [
+   [
+    "suscribete",
+    516
+   ],
+   [
+    "subtitulos por la comunidad de amara org",
+    59
+   ],
+   [
+    "subtitulos realizados por la comunidad de amara org",
+    27
+   ],
+   [
+    "suscribete al canal suscribete al canal suscribete al canal",
+    1
+   ],
+   [
+    "este es el canal de subtitulos en espanol de la iglesia de jesucristo de los santos de los ultimos dias por favor denle like den un comentario",
+    1
+   ],
+   [
+    "que te haces muchas gracias muchas gracias muchas gracias muchas gracias",
+    1
+   ],
+   [
+    "ya sabeis aqui esta la una aqui esta la una aqui esta la una aqui esta la una",
+    1
+   ],
+   [
+    "no lo se pero no lo se no lo se no lo se no lo se no lo se",
+    1
+   ]
+  ],
+  "medium": [
+   [
+    "gracias por ver el video",
+    358
+   ],
+   [
+    "suscribete",
+    303
+   ],
+   [
+    "suscribete al canal",
+    224
+   ],
+   [
+    "suscribete dale like",
+    7
+   ],
+   [
+    "subtitulos por la comunidad de amara org",
+    2
+   ],
+   [
+    "gracias por ver este video",
+    1
+   ],
+   [
+    "mas informacion www alimmenta com",
+    1
+   ],
+   [
+    "gracias por ver",
+    1
+   ],
+   [
+    "suscribete dale la campanita",
+    1
+   ],
+   [
+    "no es que no lo hagas es que no lo hagas no lo hagas no lo hagas no lo hagas",
+    1
+   ]
+  ],
+  "vosk": []
+ },
+ "H1_afirmacion": true
+}

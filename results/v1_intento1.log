@@ -1,0 +1,48 @@
+  H2 q05_azar nulo   100/500  (1 s)
+  H2 q05_azar nulo   200/500  (3 s)
+  H2 q05_azar nulo   300/500  (5 s)
+  H2 q05_azar nulo   400/500  (7 s)
+  H2 q05_azar nulo   500/500  (9 s)
+q05_azar_nulo {'evaluables': 0, 'no_evaluables': 500, 'frac_p_menor_0_01': None}
+  H2 q05_azar efecto 100/500  (23 s)
+  H2 q05_azar efecto 200/500  (37 s)
+  H2 q05_azar efecto 300/500  (51 s)
+  H2 q05_azar efecto 400/500  (65 s)
+  H2 q05_azar efecto 500/500  (79 s)
+q05_azar_efecto {'evaluables': 500, 'no_evaluables': 0, 'frac_p_menor_0_01': 1.0}
+  H2 q30_azar nulo   100/500  (97 s)
+  H2 q30_azar nulo   200/500  (116 s)
+  H2 q30_azar nulo   300/500  (135 s)
+  H2 q30_azar nulo   400/500  (153 s)
+  H2 q30_azar nulo   500/500  (173 s)
+q30_azar_nulo {'evaluables': 500, 'no_evaluables': 0, 'frac_p_menor_0_01': 0.012}
+  H2 q30_azar efecto 100/500  (186 s)
+  H2 q30_azar efecto 200/500  (197 s)
+  H2 q30_azar efecto 300/500  (208 s)
+  H2 q30_azar efecto 400/500  (220 s)
+  H2 q30_azar efecto 500/500  (237 s)
+q30_azar_efecto {'evaluables': 500, 'no_evaluables': 0, 'frac_p_menor_0_01': 1.0}
+  H2 q30_comunes90 nulo   100/500  (248 s)
+  H2 q30_comunes90 nulo   200/500  (256 s)
+  H2 q30_comunes90 nulo   300/500  (263 s)
+  H2 q30_comunes90 nulo   400/500  (276 s)
+  H2 q30_comunes90 nulo   500/500  (292 s)
+q30_comunes90_nulo {'evaluables': 500, 'no_evaluables': 0, 'frac_p_menor_0_01': 0.002}
+  H2 q30_comunes90 efecto 100/500  (310 s)
+  H2 q30_comunes90 efecto 200/500  (329 s)
+  H2 q30_comunes90 efecto 300/500  (348 s)
+  H2 q30_comunes90 efecto 400/500  (367 s)
+  H2 q30_comunes90 efecto 500/500  (386 s)
+q30_comunes90_efecto {'evaluables': 500, 'no_evaluables': 0, 'frac_p_menor_0_01': 1.0}
+H3 nulo {'frac_no_vacia': 0.002, 'frac_lexico': 0.002}
+H3 efecto {'frac_no_vacia': 0.918, 'frac_lexico': 0.89}
+Traceback (most recent call last):
+  File "D:\Investigaciones\Psicofonias\scripts\validar_v1.py", line 126, in <module>
+    main()
+  File "D:\Investigaciones\Psicofonias\scripts\validar_v1.py", line 110, in main
+    "H2 falsas alarmas <= 2 % (los 3 escenarios)": all(h2[f"{e}_nulo"]["frac_p_menor_0_01"] <= 0.02 for e, _, _ in escenarios),
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Investigaciones\Psicofonias\scripts\validar_v1.py", line 110, in <genexpr>
+    "H2 falsas alarmas <= 2 % (los 3 escenarios)": all(h2[f"{e}_nulo"]["frac_p_menor_0_01"] <= 0.02 for e, _, _ in escenarios),
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'NoneType' and 'float'

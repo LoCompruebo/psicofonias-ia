@@ -1,0 +1,77 @@
+{
+ "filas": [
+  {
+   "suceso": "H1 se cumple",
+   "p": 0.75,
+   "ocurre": true,
+   "brier": 0.0625
+  },
+  {
+   "suceso": "Algún Whisper cumple H1",
+   "p": 0.7,
+   "ocurre": true,
+   "brier": 0.09
+  },
+  {
+   "suceso": "Vosk cumple H1",
+   "p": 0.55,
+   "ocurre": false,
+   "brier": 0.3025
+  },
+  {
+   "suceso": "H2 positiva entre hermanos",
+   "p": 0.35,
+   "ocurre": false,
+   "brier": 0.1225
+  },
+  {
+   "suceso": "H2 positiva entre familias",
+   "p": 0.1,
+   "ocurre": false,
+   "brier": 0.01
+  },
+  {
+   "suceso": "H3 positiva",
+   "p": 0.7,
+   "ocurre": true,
+   "brier": 0.09
+  },
+  {
+   "suceso": "H3 léxico p_Holm < 0,01",
+   "p": 0.4,
+   "ocurre": true,
+   "brier": 0.36
+  },
+  {
+   "suceso": "E4: subtítulos o «gracias por ver» en el top 3 de algún Whisper",
+   "p": 0.5,
+   "ocurre": true,
+   "brier": 0.25
+  },
+  {
+   "suceso": "V0: medium < 50 % de WER a 0 dB",
+   "p": 0.7,
+   "ocurre": true,
+   "brier": 0.09
+  }
+ ],
+ "brier_medio": 0.1531,
+ "referencia_moneda_0_5": 0.25,
+ "top3": {
+  "base": [
+   "no no no no no no no",
+   "no no no no no no no no no no",
+   "cualquier para hacer este video si no no no no no no no no no no no no no no no no no no no no no"
+  ],
+  "small": [
+   "suscribete",
+   "subtitulos por la comunidad de amara org",
+   "subtitulos realizados por la comunidad de amara org"
+  ],
+  "medium": [
+   "gracias por ver el video",
+   "suscribete",
+   "suscribete al canal"
+  ]
+ }
+}

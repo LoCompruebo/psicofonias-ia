@@ -1,0 +1,47 @@
+{
+ "rosa_236": {
+  "sha256_audio": "ee172d1fad24c8efc6ed573888fabf894d905646a73e0f9afc56a4fc67bd1504",
+  "ruido/base": "",
+  "ruido/small": "¡Suscríbete!",
+  "ruido/medium": "¡Gracias por ver el vídeo!",
+  "ruido/vosk": "",
+  "h3_neutra/medium": "¡Suscríbete al canal!",
+  "h3_psico/medium": "¡Dios mío!"
+ },
+ "rosa_243": {
+  "sha256_audio": "f20bcf5729bdc9997439e8b5c5a050e7c1ef9874c4abd88311c825c72a3e49e8",
+  "ruido/base": "",
+  "ruido/small": "¡Suscríbete!",
+  "ruido/medium": "¡Gracias por ver el vídeo!",
+  "ruido/vosk": "",
+  "h3_neutra/medium": "¡Suscríbete al canal!",
+  "h3_psico/medium": "Chocó la vida por el diablo."
+ },
+ "rosa_105": {
+  "sha256_audio": "077a85a4fec15e1fd0816d6b52854427382b9a0ee0d787d78977ca0c91f789db",
+  "ruido/base": "",
+  "ruido/small": "¡Suscríbete!",
+  "ruido/medium": "¡Gracias por ver el vídeo!",
+  "ruido/vosk": "",
+  "h3_neutra/medium": "Un acto de la Comunidad de la Segunda Guerra Mundial de la Tierra. Un acto de la Comunidad de la Segunda Guerra Mundial de la Tierra.",
+  "h3_psico/medium": "¡Fuera de los espíritus!"
+ },
+ "rosa_003": {
+  "sha256_audio": "061b29147128a1cd020b2414308d71d9bfb96bc0a894497e2995393ffa22abb0",
+  "ruido/base": "y y y y y y y",
+  "ruido/small": "Subtítulos realizados por la comunidad de Amara.org",
+  "ruido/medium": "¡Gracias por ver el vídeo!",
+  "ruido/vosk": "",
+  "h3_neutra/medium": "¡Suscríbete al canal!",
+  "h3_psico/medium": "¡Gracias por ver este vídeo!"
+ },
+ "blanco_001": {
+  "sha256_audio": "3c3db9fb09d6fe2b6cbf5daf028c3c6d978c6ab5ac7f8bfb38b950feeee8d190",
+  "ruido/base": "",
+  "ruido/small": "¡Suscríbete!",
+  "ruido/medium": "¡Gracias por ver el vídeo!",
+  "ruido/vosk": "",
+  "h3_neutra/medium": "El ruido de fondo en una habitación.",
+  "h3_psico/medium": "¡Suscribete y dale a like!"
+ }
+}

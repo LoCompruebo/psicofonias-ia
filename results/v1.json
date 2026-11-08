@@ -1,0 +1,55 @@
+{
+ "semilla": 20261110,
+ "reps": 500,
+ "n_perm": 10000,
+ "h2": {
+  "q05_azar_nulo": {
+   "evaluables": 0,
+   "no_evaluables": 500,
+   "frac_p_menor_0_01": 0.0
+  },
+  "q05_azar_efecto": {
+   "evaluables": 500,
+   "no_evaluables": 0,
+   "frac_p_menor_0_01": 1.0
+  },
+  "q30_azar_nulo": {
+   "evaluables": 500,
+   "no_evaluables": 0,
+   "frac_p_menor_0_01": 0.008
+  },
+  "q30_azar_efecto": {
+   "evaluables": 500,
+   "no_evaluables": 0,
+   "frac_p_menor_0_01": 1.0
+  },
+  "q30_comunes90_nulo": {
+   "evaluables": 500,
+   "no_evaluables": 0,
+   "frac_p_menor_0_01": 0.01
+  },
+  "q30_comunes90_efecto": {
+   "evaluables": 500,
+   "no_evaluables": 0,
+   "frac_p_menor_0_01": 1.0
+  }
+ },
+ "h3": {
+  "nulo": {
+   "frac_no_vacia": 0.002,
+   "frac_lexico": 0.006
+  },
+  "efecto": {
+   "frac_no_vacia": 0.988,
+   "frac_lexico": 0.98
+  }
+ },
+ "criterios": {
+  "H2 falsas alarmas <= 2 % (los 3 escenarios)": true,
+  "H2 detección >= 90 % (los 3 escenarios)": true,
+  "H3 falsas alarmas <= 2 %": true,
+  "H3 detección >= 90 %": true
+ },
+ "aprueba": true,
+ "segundos": 794
+}

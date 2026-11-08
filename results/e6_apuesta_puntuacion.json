@@ -1,0 +1,59 @@
+{
+ "filas": [
+  {
+   "suceso": "medium (a) >= 80 %",
+   "p": 0.85,
+   "ocurre": false,
+   "brier": 0.7225
+  },
+  {
+   "suceso": "vosk (a) >= 50 %",
+   "p": 0.6,
+   "ocurre": false,
+   "brier": 0.36
+  },
+  {
+   "suceso": "(b) small-medium p_Holm<0,01",
+   "p": 0.85,
+   "ocurre": true,
+   "brier": 0.0225
+  },
+  {
+   "suceso": "(c) medium p_Holm<0,01",
+   "p": 0.65,
+   "ocurre": true,
+   "brier": 0.1225
+  },
+  {
+   "suceso": "(c) alguna IA p_Holm<0,01",
+   "p": 0.75,
+   "ocurre": true,
+   "brier": 0.0625
+  },
+  {
+   "suceso": "(c) vosk p_Holm<0,01",
+   "p": 0.35,
+   "ocurre": true,
+   "brier": 0.4225
+  },
+  {
+   "suceso": "medium aciertos >= 21",
+   "p": 0.35,
+   "ocurre": false,
+   "brier": 0.1225
+  },
+  {
+   "suceso": "alguna_acierta >= 30",
+   "p": 0.4,
+   "ocurre": false,
+   "brier": 0.16
+  },
+  {
+   "suceso": "español: alguna IA acierta en >= 2",
+   "p": 0.3,
+   "ocurre": false,
+   "brier": 0.09
+  }
+ ],
+ "brier_medio": 0.2317
+}

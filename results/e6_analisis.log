@@ -1,0 +1,121 @@
+{
+ "n": 101,
+ "excluidas": [
+  24
+ ],
+ "a": {
+  "base": {
+   "no_vacias": 58,
+   "frac": 0.5742574257425742,
+   "ic95": [
+    0.4768501445286466,
+    0.6662230267154063
+   ]
+  },
+  "small": {
+   "no_vacias": 62,
+   "frac": 0.6138613861386139,
+   "ic95": [
+    0.5164020131421063,
+    0.7029768494321083
+   ]
+  },
+  "medium": {
+   "no_vacias": 76,
+   "frac": 0.7524752475247525,
+   "ic95": [
+    0.660097212517289,
+    0.826351569712491
+   ]
+  },
+  "vosk": {
+   "no_vacias": 31,
+   "frac": 0.3069306930693069,
+   "ic95": [
+    0.22543627143014194,
+    0.40257348333532034
+   ]
+  }
+ },
+ "c": {
+  "base": {
+   "n": 101,
+   "cobertura_media": 0.0957095709570957,
+   "cobertura_nula_media": 0.0238899528524281,
+   "aciertos_0_5": 8,
+   "aciertos_nulos_esperados": 1.4705,
+   "p": 9.999000099990002e-05,
+   "jaccard_0_5": 3,
+   "p_holm": 0.00039996000399960006
+  },
+  "small": {
+   "n": 101,
+   "cobertura_media": 0.10825082508250826,
+   "cobertura_nula_media": 0.02365697076850542,
+   "aciertos_0_5": 10,
+   "aciertos_nulos_esperados": 1.2307,
+   "p": 9.999000099990002e-05,
+   "jaccard_0_5": 5,
+   "p_holm": 0.00039996000399960006
+  },
+  "medium": {
+   "n": 101,
+   "cobertura_media": 0.09471947194719471,
+   "cobertura_nula_media": 0.018606513437057992,
+   "aciertos_0_5": 10,
+   "aciertos_nulos_esperados": 1.0442,
+   "p": 9.999000099990002e-05,
+   "jaccard_0_5": 5,
+   "p_holm": 0.00039996000399960006
+  },
+  "vosk": {
+   "n": 101,
+   "cobertura_media": 0.03300330033003301,
+   "cobertura_nula_media": 0.008475106082036775,
+   "aciertos_0_5": 3,
+   "aciertos_nulos_esperados": 0.6311,
+   "p": 0.0031996800319968005,
+   "jaccard_0_5": 2,
+   "p_holm": 0.0031996800319968005
+  }
+ },
+ "c_por_grupo": {
+  "MSSPI": {
+   "n": 57,
+   "base": 2,
+   "small": 2,
+   "medium": 2,
+   "vosk": 1
+  },
+  "Soulwriter": {
+   "n": 8,
+   "base": 1,
+   "small": 1,
+   "medium": 1,
+   "vosk": 1
+  },
+  "Todd_Bates": {
+   "n": 13,
+   "base": 2,
+   "small": 3,
+   "medium": 4,
+   "vosk": 0
+  },
+  "otros": {
+   "n": 17,
+   "base": 3,
+   "small": 3,
+   "medium": 3,
+   "vosk": 1
+  },
+  "southlandghosthunter": {
+   "n": 6,
+   "base": 0,
+   "small": 1,
+   "medium": 0,
+   "vosk": 0
+  }
+ },
+ "alguna_acierta": 12,
+ "todas_aciertan": 3
+}
