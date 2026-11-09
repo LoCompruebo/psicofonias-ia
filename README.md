@@ -29,7 +29,7 @@ Materiales del vídeo de **Lo Compruebo** «Le di ruido a una IA y oyó psicofon
   - las transcripciones automáticas de esas grabaciones sí están (`results/e6/`, `results/e6_analisis.json`), porque son el resultado del análisis.
 - **Los modelos de reconocimiento** (Vosk y Whisper): se descargan de sus fuentes oficiales. La procedencia y las huellas están en `data/raw/*/`.
 - **Las voces sintéticas** de las 50 frases de control: se regeneran con `scripts/sintetizar_frases.ps1`, que usa la voz «Helena» de Windows. Sus huellas están en `results/CONGELADO.txt`.
-- **El ruido** no hace falta guardarlo: se regenera bit a bit con las semillas de `src/psicofonias/audio.py`. Los cinco trozos que salen en el vídeo están en `video/clips/`, con su huella comprobada contra la pasada real (`scripts/exportar_clips_video.py`).
+- **El ruido** no hace falta guardarlo: se regenera bit a bit con las semillas de `src/psicofonias/audio.py`. Los cinco trozos exportados para el vídeo están en `video/clips/` (en el montaje final suenan cuatro: `rosa_105` se quedó fuera), con su huella comprobada contra la pasada real (`scripts/exportar_clips_video.py`).
 
 ## Avisos de lectura
 
@@ -45,4 +45,4 @@ Materiales del vídeo de **Lo Compruebo** «Le di ruido a una IA y oyó psicofon
 
 ## El vídeo
 
-[VER EL VÍDEO: ENLACE PENDIENTE]
+«Puse a prueba a una IA con psicofonías y oyó voces»: https://youtu.be/dVDfw9QwUsE (público desde el sábado 14-11-2026 a las 18:00, hora de España).
